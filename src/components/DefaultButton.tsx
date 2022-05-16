@@ -1,8 +1,14 @@
 
 import "bootswatch/dist/Darkly/bootstrap.css"
-export default function DefaultButton(){
+type DefaultButton={
+    login?: any
+}
+export default function DefaultButton(props:DefaultButton){
+    const {login} = props;
     return (
-        <button type="button" className="btn btn-primary">Enviar</button>
+        <button type="button" style={{
+            marginTop:"20px"
+        }} className="btn btn-primary" onClick={login}>Enviar</button>
 
     );
 }

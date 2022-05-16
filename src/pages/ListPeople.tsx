@@ -1,3 +1,9 @@
+import NavBarComponent from "../components/NavBarComponent";
 export default function ListPeople(){
-    return <h1>LISTAR PESSOAS</h1>
+    return (
+        <div>
+            <NavBarComponent />
+            <h1>LISTAR PESSOAS</h1>
+        </div>
+    );
 }

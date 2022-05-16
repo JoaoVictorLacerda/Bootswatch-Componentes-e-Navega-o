@@ -1,4 +1,9 @@
-
+import NavBarComponent from "../components/NavBarComponent";
 export default function ListTelephone(){
-    return <h1>LISTAR TELEFONES</h1>
+    return (
+        <div>
+            <NavBarComponent />
+            <h1>LISTAR TELEFONES</h1>
+        </div>
+    );
 }

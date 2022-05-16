@@ -8,22 +8,18 @@ export default function NavBarComponent(){
 
                 <div className="collapse navbar-collapse" id="navbarColor01">
                     <ul className="navbar-nav me-auto">
+
+
                         <li className="nav-item">
-
-                        <Link className="nav-link " to="/">Cadastrar um telefone</Link>
-
+                            <Link className="nav-link" to="/">Cadastrar Pessoas</Link>
                         </li>
 
                         <li className="nav-item">
-                        <Link className="nav-link" to="/telephone-list">Listar Telefones</Link>
+                            <Link className="nav-link" to="/telephone-list">Listar Telefones</Link>
                         </li>
 
                         <li className="nav-item">
-                        <Link className="nav-link" to="/people">Cadastrar Pessoas</Link>
-                        </li>
-
-                        <li className="nav-item">
-                        <Link className="nav-link" to="/people-list">Listar Pessoas</Link>
+                            <Link className="nav-link" to="/people-list">Listar Pessoas</Link>
                         </li>
                     </ul>
                 </div>
