@@ -1,9 +1,9 @@
 import NavBarComponent from "../components/NavBarComponent";
-export default function ListPeople(){
+export default function ListCurricularComponentView(){
     return (
         <div>
             <NavBarComponent />
-            <h1>LISTAR PESSOAS</h1>
+            <h1>LISTAR COMPONENTES CURRICULARES</h1>
         </div>
     );
 }

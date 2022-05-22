@@ -1,9 +1,8 @@
 
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import ListTelephone from "./pages/ListTelephone";
+import ListCurricularComponentView from "./pages/ListCurricularComponentView";
 import Login from "./pages/Login";
-import CreatePeople from "./pages/CreatePeople";
-import ListPeople from "./pages/ListPeople";
+import CurricularComponentView from "./pages/CurricularComponentView";
 
 export default function Router(){
     return (
@@ -12,9 +11,8 @@ export default function Router(){
       
             <Routes>
                 <Route path="/login" element={<Login />} />
-                <Route path="/telephone-list" element={<ListTelephone />} />
-                <Route path="/" element={<CreatePeople />} />
-                <Route path="/people-list" element={<ListPeople />} />
+                <Route path="/curricular-component-list" element={<ListCurricularComponentView />} />
+                <Route path="/" element={<CurricularComponentView />} />
             </Routes>
         </BrowserRouter>
     )

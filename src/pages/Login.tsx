@@ -50,7 +50,7 @@ export default function Login(){
                 }}/>
             </Div>
             <Div >
-                <DefaultButton login={authorize}/>
+                <DefaultButton cb={authorize}/>
             </Div>
             
         </Body>

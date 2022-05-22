@@ -11,16 +11,13 @@ export default function NavBarComponent(){
 
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/">Cadastrar Pessoas</Link>
+                            <Link className="nav-link" to="/">Cadastrar Componente Curricular</Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/telephone-list">Listar Telefones</Link>
+                            <Link className="nav-link" to="/curricular-component-list">Listar Componente Curricular</Link>
                         </li>
 
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/people-list">Listar Pessoas</Link>
-                        </li>
                     </ul>
                 </div>
             </div>
